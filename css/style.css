@@ -1,0 +1,40 @@
+#container{
+    text-align:center;
+
+}
+ul {
+    padding:0;
+}
+ul#menu{
+    width:700px;
+    margin:auto;
+}
+#menu li{
+    list-style:none;
+    display:inline-block;
+}
+#menu li ul{
+    position:absolute;
+    z-index:3;
+    display:none;
+}
+/*#menu li:hover ul{
+    display:block;
+}*/
+#menu li ul li{
+    display:block;
+}
+#abs{
+    height:100px;
+    width:700px;
+    background-color: #efefef;
+    margin:auto;
+    position:relative;
+    z-index:2;
+}
+#abs div{
+    position:absolute;
+    top:0;
+    left:0;
+
+}
