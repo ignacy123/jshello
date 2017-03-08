@@ -23,6 +23,7 @@
             for (var i = 0; i < listOpen.length; i++) {
                 listOpen[i].className = "";
             }
-        })
-    }//TODO: window add event listener nie działa,
+        });
+
+    }
 })()
