@@ -18,6 +18,9 @@ ul#menu{
     z-index:3;
     display:none;
 }
+#menu li ul.open{
+    display:block;
+}
 /*#menu li:hover ul{
     display:block;
 }*/
