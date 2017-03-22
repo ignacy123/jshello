@@ -1,0 +1,39 @@
+html, body, .carousel, .carousel .container, .carousel .container .slide{
+    height: 100%;
+    margin: 0;
+}
+.carousel .container{
+    position: relative;
+}
+.carousel .container .slide{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.carousel .container .slide.active{
+    opacity: 1;
+}
+.carousel .controls{
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+
+}
+.carousel .controls .ctl{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    margin: 0 10px;
+    border: 2px solid white;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    display:inline-block;
+}
+.carousel .controls .ctl.active{
+    background: white;
+}
