@@ -14,6 +14,7 @@ html, body, .carousel, .carousel .container, .carousel .container .slide{
     top: 0;
     left: 0;
     opacity: 0;
+    transition: all 2s;
 }
 .carousel .container .slide.active{
     opacity: 1;
@@ -21,7 +22,9 @@ html, body, .carousel, .carousel .container, .carousel .container .slide{
 .carousel .controls{
     position: absolute;
     bottom: 30px;
-    left:50%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
 
 }
 .carousel .controls .ctl{
@@ -33,6 +36,7 @@ html, body, .carousel, .carousel .container, .carousel .container .slide{
     border-radius: 100%;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     display:inline-block;
+    cursor: pointer;
 }
 .carousel .controls .ctl.active{
     background: white;
